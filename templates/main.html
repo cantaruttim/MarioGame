@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo do Mário</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <div class='game-board'>
+
+
+        <img src ="{{ url_for('static', filename='fotos/pipe.png') }}" class = 'pipe'>
+        <img src = "{{ url_for('static', filename='fotos/mario.gif') }}" class = 'mario jump' >
+
+    </div>
+
+</body>
+</html>
